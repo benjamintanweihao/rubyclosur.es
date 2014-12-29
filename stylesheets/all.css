@@ -1,0 +1,158 @@
+h1,
+h4,
+h5,
+h6 {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-family: 'Lato', sans-serif;
+}
+h2 {
+  font-size: 2.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+p,
+li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  line-height: 1.8em;
+}
+a {
+  color: #ff5f60;
+}
+a:hover {
+  color: #f80002;
+  text-decoration: none;
+}
+span.underline {
+  display: inline-block;
+  padding-bottom: 3px;
+  border-bottom: 3px double;
+}
+span.pink {
+  color: #ff5f60;
+}
+hr.divider {
+  border-top: solid 5px #ff5f60;
+  color: #ff5f60;
+  height: 15px;
+  width: 250px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+hr.divider:after {
+  content: url("../images/ruby.svg");
+  background-color: #e7e9ec;
+  position: relative;
+  top: -18px;
+  display: inline-block;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+.social-btns {
+  margin-top: 15px;
+}
+.social-btns li {
+  font-size: 1em;
+  line-height: 1em;
+}
+.social-btns i {
+  border-radius: 50%;
+  border: 0.15em solid;
+  color: #ff5f60;
+  font-size: 1em;
+  height: 40px;
+  width: 40px;
+  padding: 11px;
+}
+.social-btns i:hover,
+.social-btns i focus {
+  background-color: #ff5f60;
+  border: 2px solid #ff5f60;
+  color: white;
+}
+header {
+  background-color: #e7e9ec;
+  padding-bottom: 2em;
+}
+header h1 {
+  font-size: 3em;
+  font-weight: 100;
+}
+header h3 {
+  font-weight: 900;
+}
+header em {
+  color: #ff5f60;
+}
+header li {
+  list-style-type: none;
+}
+header li:before {
+  font-family: 'FontAwesome';
+  content: '\f054';
+  margin: 0 10px 0 -15px;
+  color: #ff5f60;
+}
+section {
+  padding-bottom: 2em;
+}
+section h2 {
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+}
+section#story p {
+  padding-top: 1em;
+  line-height: 2.5em;
+}
+section#story hr:after {
+  background-color: white;
+}
+section#signup {
+  background-color: #e7e9ec;
+}
+section#author {
+  color: white;
+  background-color: black;
+}
+section#author hr:after {
+  background-color: black;
+}
+footer small {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 1em;
+}
+#portrait {
+  margin-bottom: 2em;
+}
+#mc_embed_signup {
+  clear: left;
+}
+#mce-EMAIL,
+#mce-FNAME {
+  float: left;
+  height: 46px;
+  margin-right: 15px!important;
+}
+#mc-embedded-subscribe {
+  margin: 0;
+}
+#mc_embed_signup input.button {
+  height: 3em;
+  display: inline-block !important;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  background-color: #ff5f60;
+  width: 7em !important;
+}
+#mc_embed_signup input.button:hover {
+  background-color: #ff2c2d;
+}
