@@ -16,7 +16,7 @@ h2 {
   text-transform: uppercase;
 }
 h3 {
-  line-height: 1.8em;
+  line-height: 1.5em;
 }
 p,
 li {
@@ -30,6 +30,9 @@ a {
 a:hover {
   color: #f80002;
   text-decoration: none;
+}
+code {
+  display: inline-block;
 }
 span.underline {
   display: inline-block;
