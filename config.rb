@@ -34,6 +34,10 @@
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
+
+activate :relative_assets
+set :relative_links, true
+
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.branch = 'gh-pages'
