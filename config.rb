@@ -36,7 +36,7 @@
 # activate :automatic_image_sizes
 activate :deploy do |deploy|
   deploy.method = :git
-  deploy.branch = 'master'
+  deploy.branch = 'gh-pages'
   deploy.build_before = true
 end
 
