@@ -24,11 +24,37 @@ li {
   font-size: 1.4em;
   line-height: 1.8em;
 }
+header li,
+section li {
+  list-style-type: none;
+}
+header li:before,
+section li:before {
+  font-family: 'FontAwesome';
+  content: '\f054';
+  margin: 0 10px 0 -15px;
+  color: #ff5f60;
+}
 a {
   color: #ff5f60;
 }
 a:hover {
   color: #f80002;
+  text-decoration: none;
+}
+a.buy-btn {
+  color: white;
+  background-color: #ff5f60;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  padding: 1em;
+  text-transform: uppercase;
+}
+a.buy-btn:hover {
+  background-color: #f80002;
   text-decoration: none;
 }
 code {
@@ -96,21 +122,15 @@ header h3 {
 header em {
   color: #ff5f60;
 }
-header li {
-  list-style-type: none;
-}
-header li:before {
-  font-family: 'FontAwesome';
-  content: '\f054';
-  margin: 0 10px 0 -15px;
-  color: #ff5f60;
-}
 section {
   padding-bottom: 2em;
 }
 section h2 {
   margin-top: 1em;
   margin-bottom: 0.4em;
+}
+section li {
+  font-size: 1.0em;
 }
 section#story p {
   padding-top: 1em;
@@ -119,7 +139,7 @@ section#story p {
 section#story hr:after {
   background-color: white;
 }
-section#signup {
+section#toc {
   background-color: #e7e9ec;
 }
 section#author {
@@ -138,27 +158,4 @@ footer small {
 }
 #portrait {
   margin-bottom: 2em;
-}
-#mc_embed_signup {
-  clear: left;
-}
-#mce-EMAIL,
-#mce-FNAME {
-  float: left;
-  height: 46px;
-  margin-right: 15px!important;
-}
-#mc-embedded-subscribe {
-  margin: 0;
-}
-#mc_embed_signup input.button {
-  height: 3em;
-  display: inline-block !important;
-  font-family: 'Lato', sans-serif;
-  text-transform: uppercase;
-  background-color: #ff5f60;
-  width: 7em !important;
-}
-#mc_embed_signup input.button:hover {
-  background-color: #ff2c2d;
 }
